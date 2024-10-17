@@ -76,7 +76,7 @@ pip install -e '.[llm]'
 
 ## Quickstart of Awaker-2.5
 
-You need to download the model weights of Awaker-2.5 (the ```pytorch_model.bin``` file) from [here](https://huggingface.co/MetabrainAGI/Awaker-2.5/resolve/main/pytorch_model.bin).
+You need to download the model weights of Awaker-2.5 (the ```pytorch_model.bin``` file) from [MetabrainAGI/Awaker-2.5](https://huggingface.co/MetabrainAGI/Awaker-2.5).
 
 
 Here we show a code snippet to show you how to use the chat model with transformers and qwen_vl_utils:
