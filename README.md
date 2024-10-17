@@ -50,10 +50,28 @@ Awaker is a series of large multimodal models with mixture of LoRA experts devel
 | LLaVA-NeXT-Qwen-72B | 72B        | Bytedance & NTU S-Lab  | 28.7    | 29.01      | 27.86     |
 | ShareGPT4V-13B      | 13B        | USTC & Shanghai AI Lab | 27.8    | 28.38      | 24.63     |
 
-## Environment Requirements
+## Environment Requirements of Awaker-2.5
 
+1. Clone this repository and navigate to ```Awaker``` folder.
 ```bash
+git clone https://github.com/MetabrainAGI/Awaker.git
+cd Awaker
+```
+2. Install Package.
+```bash
+# Install specific transformers
+cd transformers
+pip install -e .
+cd ..
+# Install specific peft
+pip install peft==0.12.0
+cp -r peft /path/to/envs/site-packages/
+# Install qwen-vl-utils
 pip install qwen-vl-utils[decord]
+# Install swift
+git clone https://github.com/modelscope/swift.git
+cd swift
+pip install -e '.[llm]'
 ```
 
 ## Quickstart of Awaker-2.5
