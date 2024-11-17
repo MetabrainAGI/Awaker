@@ -1,10 +1,10 @@
 # Awaker
 
-**Awaker** is a series of multimodal large models developed by [Metabrain AGI](https://www.metabrainagi.com)，including  multimodal large language model **Awaker-VL**, multimodal retrieval model **Awaker-Sou**, and video generation model **Awaker-Gen**.
+**Awaker** is a series of multimodal large models developed by [Metabrain AGI](https://www.metabrainagi.com)，including multimodal large language model (MLLM) **Awaker-VL**, multimodal retrieval model **Awaker-Sou**, and video generation model **Awaker-Gen**.
 
 ## News
 
-- **2024.11.17**: We have released the **Awaker2.5-VL** model. It scales the multimodal large language model (MLLM) with mixture of experts in a stable and efficient way. It achieves the new state-of-the-arts on MME-Realworld and MMBench among all the efficient MLLMs (parameters<30B). The model weights and the inference code of Awaker2.5-VL are now available. Superior open-source Awaker models are coming soon.
+- **2024.11.17**: We have released the **Awaker2.5-VL** model. We choose to scale the base MLLM model (like Qwen-VL-7B) with mixture of experts in a stable and efficient way. This thus leads to the new state-of-the-arts on MME-Realworld and MMBench among all the efficient MLLMs (parameters<30B). The model weights and the inference code of Awaker2.5-VL are now available. Superior open-source Awaker-VL models are coming soon.
 
 ## Performance
 
