@@ -4,7 +4,7 @@
 
 ## News
 
-- **2024.11.17**: We have released the **Awaker2.5-VL** model. The model weights and the inference code are now available. Superior open-source Awaker models are coming soon.
+- **2024.11.17**: We have released the **Awaker2.5-VL** model. It scales the multimodal large language model (MLLM) with mixture of experts in a stable way. The model weights and the inference code are now available. Superior open-source Awaker models are coming soon.
 
 ## Performance
 
