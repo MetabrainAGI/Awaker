@@ -1,6 +1,6 @@
 # Awaker
 
-Awaker is a series of Multimodal Large Language Models (MLLMs) with Mixture of LoRA Experts developed by MetabrainAGI.
+**Awaker** is a series of multimodal large models developed by [Metabrain AGI](https://www.metabrainagi.com)，including  multimodal large language model **Awaker-VL**, multimodal retrieval model **Awaker-Sou**, and video generation model **Awaker-Gen**.
 
 ## News
 
