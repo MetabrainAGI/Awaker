@@ -256,9 +256,11 @@ print(output_text)
 
 If you find our work helpful for your research, please consider citing the following BibTeX entry.
 
+```
 @article{awaker2.5-vl,
-  title={Awaker2.5-VL: Stably Scaling MLLMs with Parameter-Efficient Mixture of Experts},
-  author={Jinqiang Long and Yanqi Dai and Guoxing Yang and Hongpeng Lin and Nanyi Fei and Yizhao Gao and Zhiwu Lu},
-  journal={arXiv preprint arXiv:submit/6003672},
-  year={2024}
+    title     = {{Awaker2.5-VL}: Stably Scaling MLLMs with Parameter-Efficient Mixture of Experts},
+    author    = {Jinqiang Long and Yanqi Dai and Guoxing Yang and Hongpeng Lin and Nanyi Fei and Yizhao Gao and Zhiwu Lu},    
+    journal   = {arXiv preprint arXiv:submit/6003672},
+    year      = {2024} 
 }
+```
