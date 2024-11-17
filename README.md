@@ -143,7 +143,7 @@ from peft import MoeConfig, get_peft_model
 
 # Load the base Qwen2-VL model
 model = Qwen2VLForConditionalGeneration.from_pretrained(
-    "Qwen/Qwen2-VL-7B-Instruct", torch_dtype="auto", device_map="auto"
+    "Qwen/Qwen2-VL-7B-Instruct", torch_dtype=torch.float32, device_map="auto"
 )
 
 # Load the Awaker2.5-VL model
