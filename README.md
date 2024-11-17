@@ -249,7 +249,7 @@ generated_ids_trimmed = [
 output_text = processor.batch_decode(
     generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
 )
-print(output_text)
+print(output_text[0])
 ```
 
 ## Citation
