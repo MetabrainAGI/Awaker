@@ -4,7 +4,7 @@
 
 ## News
 
-- **2024.11.17**: We have released the **Awaker2.5-VL** model. It scales the multimodal large language model (MLLM) with mixture of experts in a stable and efficient way. It achieves the new state-of-the-arts on MME-Realworld and MMBench among all the efficient MLLMs (parameters<20B). The model weights and the inference code of Awaker2.5-VL are now available. Superior open-source Awaker models are coming soon.
+- **2024.11.17**: We have released the **Awaker2.5-VL** model. It scales the multimodal large language model (MLLM) with mixture of experts in a stable and efficient way. It achieves the new state-of-the-arts on MME-Realworld and MMBench among all the efficient MLLMs (parameters<30B). The model weights and the inference code of Awaker2.5-VL are now available. Superior open-source Awaker models are coming soon.
 
 ## Performance
 
