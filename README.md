@@ -260,7 +260,7 @@ If you find our work helpful for your research, please consider citing the follo
 @article{awaker2.5-vl,
     title     = {{Awaker2.5-VL}: Stably Scaling MLLMs with Parameter-Efficient Mixture of Experts},
     author    = {Jinqiang Long and Yanqi Dai and Guoxing Yang and Hongpeng Lin and Nanyi Fei and Yizhao Gao and Zhiwu Lu},    
-    journal   = {arXiv preprint arXiv:submit/6003672},
+    journal   = {arXiv preprint arXiv:2411.10669},
     year      = {2024} 
 }
 ```
