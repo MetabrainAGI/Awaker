@@ -127,6 +127,9 @@ cp -r peft /path/to/envs/site-packages/
 # Install qwen-vl-utils
 pip install qwen-vl-utils[decord]
 ```
+3. Version of torch
+```bash
+torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0
 
 ## Quickstart
 
