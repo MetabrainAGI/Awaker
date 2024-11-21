@@ -4,7 +4,7 @@
 
 ## News
 - **2024.11.19**: We have released our paper: [Awaker2.5-VL](https://arxiv.org/abs/2411.10669)
-- **2024.11.17**: We have released the **Awaker2.5-VL** model. We choose to scale the base MLLM model (like Qwen-VL-7B) with mixture of experts in a stable and efficient way. This thus leads to the new state-of-the-arts on MME-Realworld and MMBench among all the efficient MLLMs (parameters<30B). The model weights and the inference code of Awaker2.5-VL are now available. Superior open-source Awaker-VL models are coming soon.
+- **2024.11.17**: We have released the **Awaker2.5-VL** model. We choose to scale the base MLLM model (like Qwen2-VL-7B) with mixture of experts in a stable and efficient way. This thus leads to the new state-of-the-arts on MME-Realworld and MMBench among all the efficient MLLMs (parameters<30B). The model weights and the inference code of Awaker2.5-VL are now available. Superior open-source Awaker-VL models are coming soon.
 
 ## Performance
 
