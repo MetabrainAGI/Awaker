@@ -145,6 +145,16 @@ from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
 from qwen_vl_utils import process_vision_info
 from peft import MoeConfig, get_peft_model
 
+def find_n_position(target_list, target_value, n):
+    count = 0
+    for i, element in enumerate(target_list):
+        if element == target_value:
+            count += 1
+            if count == n:
+                return i
+        
+    return -1
+
 # Load the base Qwen2-VL model
 model = Qwen2VLForConditionalGeneration.from_pretrained(
     "Qwen/Qwen2-VL-7B-Instruct", torch_dtype="auto", device_map="auto"
