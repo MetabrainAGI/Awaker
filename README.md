@@ -105,7 +105,7 @@
 |GPT-4V (0409, detail-high)  |  - | OpenAI  | 80.5   | 80.0 | 81.0 |
 
 ### MathVista Benchmark
-| Models                                   |      | All  | FQA  | GPS  | MWP  | TQA  | VQA  | ALG  | ARI  | GEO  | LOG  | NUM  | SCI  | STA  |
+| Models                                   | All  | FQA  | GPS  | MWP  | TQA  | VQA  | ALG  | ARI  | GEO  | LOG  | NUM  | SCI  | STA  |
 | ---------------------------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | OpenAI o1                                | 73.9 | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    |      |
 | Pixtral Large（124B）                    | 69.4 | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    |      |
