@@ -104,66 +104,10 @@
 |InternLM-XComposer2.5  | 8B  | Shanghai AI Lab  | 81.1 | 80.1 | 82.0 |
 |GPT-4V (0409, detail-high)  |  - | OpenAI  | 80.5   | 80.0 | 81.0 |
 
-### MMMU-Pro Benchmark
-| Models                  | Parameters | Institutions    | Overall | Vision | Standard |
-| ----------------------- | ---------- | --------------- | ------- | ------ | -------- |
-| Claude 3.5 Sonnet       | -          | Anthropic       | 51.5    | 48.0   | 55.0     |
-| EVLM-KTO                | 7B         | UCF             | -       | 43.8   | -        |
-| GPT-4o (0513)           | -          | OpenAI          | 51.9    | 49.7   | 54.0     |
-| InternVL2.5-78B         | 78B        | Shanghai AI Lab | 48.6    | 45.9   | 51.4     |
-| Gemini 1.5 Pro (0801)   | -          | Google          | 46.9    | 44.4   | 49.4     |
-| Qwen2-VL-72B            | 72B        | Alibaba         | 46.2    | 43.3   | 49.2     |
-| InternVL2.5-38B         | 38B        | Shanghai AI Lab | 46.0    | 44.0   | 48.0     |
-| Gemini 1.5 Pro (0523)   | -          | Google          | 43.5    | 40.5   | 46.5     |
-| InternVL2-Llama3-76B    | 76B        | Shanghai AI Lab | 40.0    | 38.0   | 41.9     |
-| Llama 3.2 90B           | 90B        |                 | 39.5    | 33.8   | 45.2     |
-| GPT-4o mini             | -          | OpenAI          | 37.6    | 35.2   | 39.9     |
-| InternVL2.5-26B         | 26B        | Shanghai AI Lab | 37.1    | 32.6   | 41.6     |
-| InternVL2.5-8B          | 8B         | Shanghai AI Lab | 34.3    | 30.4   | 38.2     |
-| InternVL2-40B           | 40B        | Shanghai AI Lab | 34.2    | 32.1   | 36.3     |
-| NVILA                   | 15B        |                 | 33.7    | 28.6   | 38.7     |
-| **Awaker2.5-VL (ours)** | 10.8B      | Metabrain AGI   | 31.5    | 24.5   | 38.4     |
-| LLaVA-OneVision-72B     | 72B        | ByteDance       | 31.0    | 24.0   | 38.0     |
-| Qwen2-VL-7B             | 7B         | Alibaba         | 30.6    | 27.0   | 34.1     |
 
-### MathVista Benchmark
-| Models                                   | All  | FQA  | GPS  | MWP  | TQA  | VQA  | ALG  | ARI  | GEO  | LOG  | NUM  | SCI  | STA  |
-| ---------------------------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| OpenAI o1                                | 73.9 | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    |      |
-| Pixtral Large（124B）                    | 69.4 | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    |      |
-| Grok-2                                   | 69.0 | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    |      |
-| Grok-2 mini                              | 68.1 | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    |      |
-| Cluaude 3.5                              | 67.7 | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    |      |
-| LLaVA-Onevision                          | 67.5 | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    |      |
-| InternVL2-8B-MPO                         | 67.3 | 72.5 | 73.6 | 69.9 | 66.5 | 50.3 | 70.1 | 57.5 | 71.5 | 27   | 43.1 | 65.5 | 79.1 |      |
-| Ovis1.6-Gemma2-9B                        | 67.2 | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    |      |
-| InternVL2-Pro                            | 66.8 | 70.6 | 65.4 | 76.9 | 71.5 | 48   | 66.5 | 62.3 | 63.6 | 27.0 | 40.3 | 65.6 | 81.1 |      |
-| Chimera-Reasoner-8B                      | 66.2 | 65.4 | 71.6 | 74.7 | 66.5 | 52.0 | 68.3 | 58.9 | 70.3 | 21.6 | 45.8 | 61.5 | 73.1 |      |
-| TextGrad(GPT-4o)                         | 66.1 | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    |      |
-|**Awaker2.5-VL (ours)** | 64.5 | 67.2 | 64.4 | 70.4 | 61.4 | 57   | 61.6 | 59.5 | 63.6 | 16.2 | 43.1 | 63.9 | 74.4 |      |
-| Gemini1.5Pro                             | 63.9 | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    |      |
-| GPT4o                                    | 63.8 | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    | -    |      |
-| Qwen2-VL-7B                              | 60.9 | 70.3 | 43.2 | 67.7 | 62.7 | 58.7 | 47.3 | 59.5 | 44.8 | 27.2 | 41   | 63.9 | 77.7 |      |
-| InternVL-Chat-v1.2-plus                  | 59.9 | 51.7 | 61.1 | 79.6 | 52.5 | 57   | 54.5 | 63.2 | 61.1 | 16.2 | 48.6 | 55.7 | 60.8 |      |
+    
 
 
-### MathVerse Benchmark
-| Models                   | Parameters | Institutions    | Overall | Text Domain | Text Lite | Vision Instensive | Vision Domain | Vision Only | Text Only |
-| ------------------------ | ---------- | --------------- | ------- | ----------- | --------- | ----------------- | ------------- | ----------- | --------- |
-| GPT-4V                   | -          | OpenAI          | 39.40   | 54.7        | 41.4      | 34.9              | 34.4          | 31.6        | 48.7      |
-| **Awaker2.5-VL(ours)**   | 10.8B      | Metabrain AGI   | 32.47   | 39.2        | 35.0      | 34.6              | 34.5          | 25.4        | 26.1      |
-| Qwen2-VL-7B-Instruct     | 8B         | Alibaba         | 29.63   | 34.1        | 31.1      | 31.2              | 32.4          | 25.0        | 24.0      |
-| Qwen-VL-Max              | -          | Alibaba         | 25.88   | 30.7        | 26.1      | 24.1              | 24.1          | 21.4        | 28.9      |
-| Gemini-Pro               | -          | Google          | 24.10   | 26.3        | 23.5      | 23.0              | 22.3          | 22.2        | 27.3      |
-| LLaVA-NeXT-34B           | 35B        | ByteDance       | 23.35   | 33.8        | 25.5      | 23.5              | 20.3          | 15.7        | 21.3      |
-| G-LLaVA-13B              | 14B        | Huawei\         | HKU     | 17.98       | 21.2      | 20.9              | 17.7          | 14.8        | 10.0      |
-| G-LLaVA-7B               | 8B         | Huawei\         | HKU     | 17.32       | 20.9      | 20.7              | 17.2          | 14.6        | 9.4       |
-| InternLM-Xcomposer-VL-7B | 8B         | Shanghai AI Lab | 16.48   | 22.3        | 17.0      | 15.7              | 16.4          | 11.0        | 16.5      |
-| LLaVA-NeXT-13B           | 14B        | ByteDance       | 16.07   | 19.4        | 15.2      | 16.8              | 15.2          | 11.3        | 18.5      |
-| SPHINX-MoE               | -          | Shanghai AI Lab | 15.57   | 22.2        | 16.4      | 14.8              | 12.6          | 9.1         | 18.3      |
-| SPHINX-Plus              | -          | Shanghai AI Lab | 12.65   | 13.9        | 11.6      | 11.6              | 13.5          | 10.4        | 14.9      |
-| Qwen-VL-Plus             | -          | Alibaba         | 12.22   | 15.7        | 11.1      | 9.0               | 13.0          | 10.0        | 14.5      |
-| ShareGPT4V-13B           | 13B        | USTC            | 11.97   | 16.2        | 16.2      | 15.3              | 13.8          | 3.7         | 6.6       |
 
 
 
