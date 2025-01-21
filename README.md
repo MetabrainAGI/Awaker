@@ -104,6 +104,28 @@
 |InternLM-XComposer2.5  | 8B  | Shanghai AI Lab  | 81.1 | 80.1 | 82.0 |
 |GPT-4V (0409, detail-high)  |  - | OpenAI  | 80.5   | 80.0 | 81.0 |
 
+### MMMU-Pro Benchmark
+| Models                  | Parameters | Institutions    | Overall | Vision | Standard |
+| ----------------------- | ---------- | --------------- | ------- | ------ | -------- |
+| Claude 3.5 Sonnet       | -          | Anthropic       | 51.5    | 48.0   | 55.0     |
+| EVLM-KTO                | 7B         | UCF             | -       | 43.8   | -        |
+| GPT-4o (0513)           | -          | OpenAI          | 51.9    | 49.7   | 54.0     |
+| InternVL2.5-78B         | 78B        | Shanghai AI Lab | 48.6    | 45.9   | 51.4     |
+| Gemini 1.5 Pro (0801)   | -          | Google          | 46.9    | 44.4   | 49.4     |
+| Qwen2-VL-72B            | 72B        | Alibaba         | 46.2    | 43.3   | 49.2     |
+| InternVL2.5-38B         | 38B        | Shanghai AI Lab | 46.0    | 44.0   | 48.0     |
+| Gemini 1.5 Pro (0523)   | -          | Google          | 43.5    | 40.5   | 46.5     |
+| InternVL2-Llama3-76B    | 76B        | Shanghai AI Lab | 40.0    | 38.0   | 41.9     |
+| Llama 3.2 90B           | 90B        |                 | 39.5    | 33.8   | 45.2     |
+| GPT-4o mini             | -          | OpenAI          | 37.6    | 35.2   | 39.9     |
+| InternVL2.5-26B         | 26B        | Shanghai AI Lab | 37.1    | 32.6   | 41.6     |
+| InternVL2.5-8B          | 8B         | Shanghai AI Lab | 34.3    | 30.4   | 38.2     |
+| InternVL2-40B           | 40B        | Shanghai AI Lab | 34.2    | 32.1   | 36.3     |
+| NVILA                   | 15B        |                 | 33.7    | 28.6   | 38.7     |
+| **Awaker2.5-VL (ours)** | 10.8B      | Metabrain AGI   | 31.5    | 24.5   | 38.4     |
+| LLaVA-OneVision-72B     | 72B        | ByteDance       | 31.0    | 24.0   | 38.0     |
+| Qwen2-VL-7B             | 7B         | Alibaba         | 30.6    | 27.0   | 34.1     |
+
 ### MathVista Benchmark
 | Models                                   | All  | FQA  | GPS  | MWP  | TQA  | VQA  | ALG  | ARI  | GEO  | LOG  | NUM  | SCI  | STA  |
 | ---------------------------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
