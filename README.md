@@ -125,6 +125,25 @@
 | InternVL-Chat-v1.2-plus                  | 59.9 | 51.7 | 61.1 | 79.6 | 52.5 | 57   | 54.5 | 63.2 | 61.1 | 16.2 | 48.6 | 55.7 | 60.8 |      |
 
 
+### MathVerse Benchmark
+| Models                   | Parameters | Institutions    | Overall | Text Domain | Text Lite | Vision Instensive | Vision Domain | Vision Only | Text Only |
+| ------------------------ | ---------- | --------------- | ------- | ----------- | --------- | ----------------- | ------------- | ----------- | --------- |
+| GPT-4V                   | -          | OpenAI          | 39.40   | 54.7        | 41.4      | 34.9              | 34.4          | 31.6        | 48.7      |
+| **Awaker2.5-VL(ours)**   | 10.8B      | Metabrain AGI   | 32.47   | 39.2        | 35.0      | 34.6              | 34.5          | 25.4        | 26.1      |
+| Qwen2-VL-7B-Instruct     | 8B         | Alibaba         | 29.63   | 34.1        | 31.1      | 31.2              | 32.4          | 25.0        | 24.0      |
+| Qwen-VL-Max              | -          | Alibaba         | 25.88   | 30.7        | 26.1      | 24.1              | 24.1          | 21.4        | 28.9      |
+| Gemini-Pro               | -          | Google          | 24.10   | 26.3        | 23.5      | 23.0              | 22.3          | 22.2        | 27.3      |
+| LLaVA-NeXT-34B           | 35B        | ByteDance       | 23.35   | 33.8        | 25.5      | 23.5              | 20.3          | 15.7        | 21.3      |
+| G-LLaVA-13B              | 14B        | Huawei\         | HKU     | 17.98       | 21.2      | 20.9              | 17.7          | 14.8        | 10.0      |
+| G-LLaVA-7B               | 8B         | Huawei\         | HKU     | 17.32       | 20.9      | 20.7              | 17.2          | 14.6        | 9.4       |
+| InternLM-Xcomposer-VL-7B | 8B         | Shanghai AI Lab | 16.48   | 22.3        | 17.0      | 15.7              | 16.4          | 11.0        | 16.5      |
+| LLaVA-NeXT-13B           | 14B        | ByteDance       | 16.07   | 19.4        | 15.2      | 16.8              | 15.2          | 11.3        | 18.5      |
+| SPHINX-MoE               | -          | Shanghai AI Lab | 15.57   | 22.2        | 16.4      | 14.8              | 12.6          | 9.1         | 18.3      |
+| SPHINX-Plus              | -          | Shanghai AI Lab | 12.65   | 13.9        | 11.6      | 11.6              | 13.5          | 10.4        | 14.9      |
+| Qwen-VL-Plus             | -          | Alibaba         | 12.22   | 15.7        | 11.1      | 9.0               | 13.0          | 10.0        | 14.5      |
+| ShareGPT4V-13B           | 13B        | USTC            | 11.97   | 16.2        | 16.2      | 15.3              | 13.8          |             |           |
+
+
 
 ## Environment Requirements
 
